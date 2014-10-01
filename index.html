@@ -3,10 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <title>無題ドキュメント</title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
-
+	<!--▼▼▼サイドバー▼▼▼-->
+	<div id="side_bar">
+		<div id="side_bar_in">
+			<div id="logo"><a href="#"><h1><img src="images/logo.jpg" width="161" height="112" alt="ジムニーパーツならSMZ" ></h1></a></div>
+			<ul id="g_nav">
+				<a href="#"><li><span>JB23用パーツ</span></li></a>
+				<a href="#"><li><span>JA,SJ系パーツ</span></li></a>
+				<a href="#"><li><span>SUS304</span></li></a>
+				<a href="#"><li><span>総合案内</span></li></a>
+			 </ul>
+			 <a href="#" class="contact_a">
+				<div>お問い合わせ</div>
+			 </a>
+			 <div id="side_tel"><img src="images/side_tel.gif" width="163" height="18" alt="0263-27-1444"></div>
+			 <div id="side_time"><img src="images/side_time.gif" width="170" height="22"  alt="OPEN：9-17（平日）"></div>
+			 
+			 <div id="social-icon">
+			 <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+			 <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+			 <a href="#" class="sns_last"><i class="fa fa-google-plus fa-2x"></i></a>
+			</div>
+	
+		 </div>	 
+	 </div>
+	 <!--▲▲▲サイドバーend▲▲▲-->
+	 
+	 <!--▼▼▼ヘッダー▼▼▼-->
+	 <div id="header_out">
+			<ul>
+				<a href="#"><li id="h_cart">カートを見る</li></a>
+				<a href="#"><li id="h_login">ログイン</li></a>
+			</ul>
+	 </div>
+	 <!--▲▲▲ヘッダーend▲▲▲-->
+	 
+	 <div id="top_contents">
+	 	<div id="main_img"><img src="images/top_main.jpg" alt="メインイメージ"></div>
+	 </div>
+	 
+	 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+	$(window).on('load resize', function()  {
+		var h = $(window).height();
+		var s = h + 'px' ;
+		$('#side_bar').css('height', s);
+		$('#side_bar_in').css('height', s);
+	});
+</script>
 
 </body>
 </html>
