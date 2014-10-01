@@ -46,15 +46,20 @@ body{
 
 #g_nav li{
 	
-	height:47px;
-	line-height:47px;
+	height:50px;
+	line-height:50px;
 	background: url(../images/side_back.gif) repeat-x bottom left;
+}
+
+.bgnone{
+	background:none !important;
 }
 
 #g_nav  span{
 	border-left: solid 4px #bb131a;
 	margin-left:26px;
 	padding-left:12px;
+	padding-top:2px;
 }
 
 .side_contact_a{
@@ -164,6 +169,49 @@ body{
 #top_contents{
 	margin-left:210px;
 	box-sizing:border-box;
+	padding-top:44px;
+}
+
+#top_bnr_out{
+	background:#2b2b2b;
+	overflow:hidden;
+	padding:36px 18px 28px 18px;
+	text-align:center;
+}
+#top_bnr_in{
+	margin:0 auto;
+	display:inline-block;
+}
+
+.top_bnr_fl{
+	float:left;
+	margin:0px 10px 0px 10px;
+	
+}
+
+#ranking_out{
+	overflow:hidden;
+	background:#111;
+}
+
+#no1{
+	float:left;
+	width:66.64037855%;
+}
+#no1 img{
+	width:100%;
+}
+
+#no23_out{
+	float:left;
+	width:33.2807571%;
+}
+
+#no23_out p{
+	
+}
+#no23_out img{
+	width:100%;
 }
 	
 

@@ -50,6 +50,44 @@
 	 
 	 <div id="top_contents">
 	 	<div id="main_img"><img src="images/top_main.jpg" alt="メインイメージ"></div>
+		
+		<div id="top_bnr_out">
+			<div id="top_bnr_in">
+				<div class="top_bnr_fl">
+					<dl>
+						<dt class="img_out"><img src="images/top_bnr_02.jpg"></dt>
+						<dd>新しい素材を使用。sus304シリーズ</dd>
+					</dl>
+				</div>
+				<div class="top_bnr_fl">
+					<dl>
+						<dt><img src="images/top_bnr_02.jpg"></dt>
+						<dd>新しい素材を使用。sus304シリーズ</dd>
+					</dl>
+				</div>
+				<div class="top_bnr_fl">
+					<dl>
+						<dt><img src="images/top_bnr_02.jpg"></dt>
+						<dd>新しい素材を使用。sus304シリーズ</dd>
+					</dl>
+				</div>
+				<div class="top_bnr_fl">
+					<dl>
+						<dt><img src="images/top_bnr_02.jpg"></dt>
+						<dd>新しい素材を使用。sus304シリーズ</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+		<div id="ranking_out">
+			<div id="no1"><img src="images/pic01.jpg"></div>
+			<div id="no23_out">
+				<p><img src="images/pic02.jpg" ></p>
+				<p><img src="images/pic03.jpg"></p>
+			</div>
+		</div>
+		
 	 </div>
 	 
 	 
@@ -62,6 +100,28 @@
 		$('#side_bar_in').css('height', s);
 	});
 </script>
+<script>
+	$(function() {
+	$('.img_out img')
+	.hover(
+		function(){
+			$(this).stop().animate({
+				'width':'600px',//拡大で表示させておくサイズ
+				'height':'135px',
+				'marginTop':'-45px'//トップのマージンをマイナスで指定す事で底辺を起点としています
+			},'fast');
+		},
+		function () {
+			$(this).stop().animate({
+				'width':'400px',//デフォルトで表示させておくサイズ
+				'height':'90px',
+				'marginTop':'0px'
+			},'fast');
+		}
+	);
+});
+</script>
+
 
 </body>
 </html>
