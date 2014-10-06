@@ -1,0 +1,125 @@
+/*　スプリクトに関係するスタイル
+----------------------------------------------------------- */
+.boxgrid	{ 
+	overflow: hidden; 
+	position: relative;
+	display:block;
+	box-sizing:border-box;
+}
+.boxgrid img{ 
+
+	height:auto;
+}
+
+	
+.boxcaption{
+	width:100%;
+	color:#262626;
+	position: absolute; 
+	background-image: url(../images/c_back.png) ;
+	background-repeat:repeat;
+	box-sizing:border-box;
+	text-align:left;
+	overflow:hidden;
+}
+
+.captionfull .boxcaption {
+	left: 0;
+	bottom:-500px;
+}
+
+
+#item_box_a{
+	overflow:hidden;
+	max-width:960px;
+}
+
+.boxgrid_link{
+	width:29.296875%;
+	display:block;
+}
+
+.top_detail_name{
+	background: url(../images/detail_icon.png) no-repeat left top;
+	font-size:100%;
+	font-weight:normal;
+	padding-left:26px;
+	width: 60%;
+	white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+}
+
+.cover{
+	padding:13px 15px 13px 15px;
+
+}
+
+.top_price{
+	overflow:hidden;
+	padding-left:26px;
+}
+
+.top_price li{
+	float:left;
+	font-size:114.3%;
+}
+
+.top_price01{
+	text-decoration:line-through;
+	margin-right:15px;
+	
+}
+
+.top_price02{
+	color:#b21117;
+}
+
+.cp_left{
+	float:left;
+}
+
+.cp_right{
+	float:right;
+	border: solid 1px #262626;
+	margin-right:5px;
+}
+
+.cp_right a{
+	color:#262626;
+}
+
+.cp_right p{
+	padding:10px 20px 10px 20px;
+}
+
+
+
+}
+
+@media only screen and (max-width:400px) {
+	
+	/****新着商品****/
+	.boxgrid{
+		width: auto;
+		margin-bottom:10px;
+	}
+	
+	#item_box_a {
+	overflow: hidden;
+	margin:0 auto;
+	max-width:300px;
+	}
+	
+	#new_item_out h2{
+		margin-left:0;
+	}
+	
+	#top_box03 h2{
+		margin-left:0;
+	}
+	
+	
+}
+
+
