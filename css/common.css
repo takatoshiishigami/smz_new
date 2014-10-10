@@ -13,9 +13,11 @@ body{
 }
 
 /*z-index　---------------------------- */
-#side_bar{ z-index:5;}
-#header_out{ z-index:4;}
-.side_bar_open{z-index:10;}
+#side_bar{ z-index:999999;}
+#header_out{ z-index:999998;}
+.side_bar_open{z-index:999999;}
+.bx-wrapper .bx-loading {z-index: 9;}
+
 
 
 
@@ -886,6 +888,12 @@ display: none;
 	}
 	.picup_item{
 		border-right:none;
+	}
+	
+	#footer_out{
+		height:auto;
+		line-height:24px;
+		padding:10px 0px 10px 0px;
 	}
 	
 	
